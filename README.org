@@ -1,0 +1,45 @@
+#+TITLE: Bu
+#+AUTHOR: h5lianfu
+#+DATE: 2024-12-18
+#+EMAIL: h5lianfu@gmail.com
+#+OPTIONS: nx, bun, react, typescript, tauri, mui, sass.
+
+*** Run tasks
+
++ To run the dev server for bu, run:
+  #+BEGIN_SRC sh
+    bun run bu
+  #+END_SRC
+
++ To run the dev server for personal, run:
+  #+BEGIN_SRC sh
+    bun run personal
+  #+END_SRC
+
++ To run the production for bu, run:
+  #+BEGIN_SRC sh
+    bunx nx build bu
+  #+END_SRC
+
++ To run the production for personal, run:
+  #+BEGIN_SRC sh
+    bunx nx build personal
+  #+END_SRC
+
+*** Add new app or lib
+
++ To generate a new application, run:
+  #+BEGIN_SRC sh
+    bunx nx g @nx/react:app apps/demo
+  #+END_SRC
+
++ To generate a new library, run:
+  #+BEGIN_SRC sh
+    bunx nx g @nx/react:lib libs/demo
+  #+END_SRC
+
+*** To connect to Nx Cloud, run:
+
+  #+BEGIN_SRC sh
+    bunx nx connect
+  #+END_SRC

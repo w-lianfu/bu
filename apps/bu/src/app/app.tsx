@@ -1,13 +1,15 @@
-// Uncomment this line to use CSS modules
-// import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
+import { Core } from '@bu/core';
 
-export function App() {
+interface IProps {}
+
+const App = (props: IProps) => {
   return (
     <div>
       <NxWelcome title="bu" />
+      <Core />
     </div>
   );
-}
+};
 
 export default App;
