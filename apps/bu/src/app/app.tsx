@@ -1,3 +1,4 @@
+import '@bu/scss';
 import NxWelcome from './nx-welcome';
 import { Core } from '@bu/core';
 

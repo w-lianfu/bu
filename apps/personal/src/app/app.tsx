@@ -1,6 +1,7 @@
-import NxWelcome from './nx-welcome';
-
 import { Route, Routes, Link } from 'react-router';
+
+import '@bu/scss';
+import NxWelcome from './nx-welcome';
 
 const App = () => {
   return (

@@ -16,8 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@bu/core": ["libs/core/src/index.ts"],
-      "@bu/ui": ["libs/ui/src/index.ts"]
-    }
+      "@bu/ui": ["libs/ui/src/index.ts"],
+      "@bu/scss": ["libs/scss/index.scss"],
+    },
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": ["node_modules", "tmp"],
 }

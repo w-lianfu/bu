@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "bun run bu",
+    "dev": "bunx tauri dev",
     "bu": "bunx nx serve bu",
     "personal": "bunx nx serve personal",
     "lint": "bun run eslint",
