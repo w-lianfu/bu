@@ -31,7 +31,6 @@ module.exports = [
       '**/*.tsx',
       '**/*.js',
       '**/*.jsx',
-      '**/*.cjs',
       '**/*.mjs',
     ],
     // Override or add rules here
